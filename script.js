@@ -127,8 +127,7 @@ beautiful,
 and unforgettable.
 
 I promise to always stay beside you,
-support you,
-and love you endlessly...
+and support you....
 
 Happy Birthday Meghudi 🫂
 `;
