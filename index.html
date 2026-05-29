@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Romantic Birthday Surprise</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PARTICLES -->
+    <div class="particles" id="particles"></div>
+
+    <!-- FLOATING HEARTS -->
+    <div class="hearts" id="hearts"></div>
+
+    <!-- INTRO SECTION -->
+    <section id="intro">
+
+        <h1 class="main-title">Hey Beautiful ❤️</h1>
+
+        <p class="subtitle">
+            I made something special for your birthday…🎂
+        </p>
+
+        <div class="birth-box glass">
+
+            <h3>Enter Your Birth Year 🎂</h3>
+
+            <input type="number" id="yearInput" placeholder="Enter Birth Year">
+
+            <div class="hint">
+                Hint: The year is 2003 😉
+            </div>
+
+            <div class="error" id="errorText"></div>
+
+            <button class="glow-btn" id="openBtn" disabled>
+                Open Surprise 🎁
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- LOADING SECTION -->
+    <section id="loading">
+
+        <h1 class="reveal-title">
+            Preparing your surprise…
+        </h1>
+
+        <div class="loader-heart"></div>
+
+    </section>
+
+    <!-- REVEAL SECTION -->
+    <section id="reveal">
+
+        <h1 class="reveal-title">
+            Happy Birthday Meghudii ❤️
+        </h1>
+
+        <div class="typing">
+            You are the most special person in my life…
+        </div>
+
+        <!-- GALLERY -->
+        <div class="gallery">
+
+            <div class="card glass">
+                <img src="image1.png" alt="">
+                <p>Our Beautiful Moments ❤️</p>
+            </div>
+
+            <div class="card glass">
+                <img src="image2.jpeg" alt="">
+                <p>Forever Together ✨</p>
+            </div>
+
+            <div class="card glass">
+                <img src="image3.jpeg" alt="">
+                <p>Your Smile is Magic 💖</p>
+            </div>
+
+        </div>
+
+        <!-- LOVE MESSAGE -->
+        <div class="love-box glass">
+
+            <div class="love-text" id="loveText"></div>
+
+        </div>
+
+        <!-- BALLOON BUTTON -->
+        <button class="glow-btn" id="balloonBtn">
+            Click here 🎈
+        </button>
+
+        <!-- SURPRISE VIDEO -->
+
+<!-- SURPRISE VIDEO -->
+
+<div class="video-wrapper glass" id="videoWrapper">
+
+    <video
+        id="birthdayVideo"
+        class="birthday-video"
+        controls
+        playsinline
+    >
+
+        <source src="BdyVideo1.mp4" type="video/mp4">
+
+    </video>
+
+</div>
+<!-- ////////////////////////////////////////// -->
+        <!-- VIDEO BUTTON -->
+
+        <!-- <button class="glow-btn" id="balloonBtn">
+            Click Here ❤️
+        </button> -->
+
+        <!-- VIDEO CONTAINER -->
+
+        <!-- <div class="video-container glass" id="videoContainer">
+
+            <video id="surpriseVideo" controls> -->
+
+                <!-- PUT YOUR VIDEO FILE NAME HERE -->
+                <!-- <source src="birthday-video.mp4" type="video/mp4">
+
+            </video>
+
+        </div> -->
+
+<!--  -->
+
+
+        <!-- FINAL SECTION -->
+        <div id="final">
+
+            <h1 class="final-title">
+                Thank You For Being In My Life ❤️
+            </h1>
+
+            <p class="quote">
+                “Every Friendship is beautiful,
+                but ours is my favorite…”
+            </p>
+
+            <button class="glow-btn" onclick="location.reload()">
+                Thank You 🫂
+            </button>
+
+            
+
+        </div>
+
+    </section>
+
+    <!-- MUSIC -->
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- JS FILE -->
+    <script src="script.js"></script>
+
+    <!-- <div id="balloon-background"></div> -->
+
+</body>
+</html>
